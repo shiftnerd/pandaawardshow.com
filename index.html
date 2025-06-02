@@ -1,0 +1,100 @@
+<html>
+
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+  <link rel="stylesheet" as="style" onload="this.rel='stylesheet'"
+    href="https://fonts.googleapis.com/css2?display=swap&family=Inter:wght@400;500;700;900&family=Noto+Sans:wght@400;500;700;900" />
+  <title>Panda Award Show</title>
+  <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+</head>
+
+<body class="bg-[#111a22] text-white font-sans">
+  <div class="min-h-screen flex flex-col">
+    <header class="border-b border-[#243647] px-10 py-3 flex justify-between items-center">
+      <div class="flex items-center gap-4">
+        <div class="size-4">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M24 4H42V17.3333V30.6667H24V44H6V30.6667V17.3333H24V4Z"
+              fill="currentColor" />
+          </svg>
+        </div>
+        <h2 class="text-lg font-bold">Panda Award Show</h2>
+      </div>
+      <nav class="flex gap-8">
+        <a href="#" class="text-sm font-medium">Home</a>
+        <a href="#" class="text-sm font-medium">Episodes</a>
+        <a href="#" class="text-sm font-medium">About</a>
+        <a href="#" class="text-sm font-medium">Contact</a>
+      </nav>
+    </header>
+
+    <main class="flex-1 px-10 py-12 max-w-4xl mx-auto">
+      <!-- Hero Section -->
+      <section class="text-center mb-16">
+        <h1 class="text-4xl font-black mb-4">Casual IT Career Podcast</h1>
+        <p class="text-[#93adc8] max-w-xl mx-auto">
+          Join Abhi and Ben as they explore career paths, mistakes, and lessons learned in the IT industry.
+        </p>
+      </section>
+
+      <!-- Coming Soon Section -->
+      <section class="text-center py-12">
+        <h2 class="text-2xl font-bold mb-2">Episodes Coming Soon</h2>
+        <p class="text-[#93adc8]">We’re putting the final touches on our first drop. Stay tuned!</p>
+      </section>
+
+      <!-- Meet the Hosts Section -->
+      <section class="mt-20">
+        <h2 class="text-2xl font-bold mb-6 text-center">Meet Your Hosts</h2>
+        <div class="grid md:grid-cols-2 gap-10">
+          <div>
+            <h3 class="text-xl font-semibold mb-2">Abhi Saini</h3>
+            <p class="text-[#93adc8]">Abhi Saini is the Owner and President of Bearium Networks, leveraging his IT
+              experience to deliver managed services, cybersecurity solutions, and strategic technology planning. He’s
+              passionate about helping organizations optimize their IT infrastructure to drive growth and security.</p>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold mb-2">Ben Climer</h3>
+            <p class="text-[#93adc8]">Ben Climer is a Lead Automation Specialist at Rewst, where he helps MSPs build and
+              optimize workflows that save time and create ROI.</p>
+          </div>
+        </div>
+        <p class="text-[#93adc8] text-center mt-6">Outside of work, both Abhi and Ben volunteer with ITDRC (Information
+          Technology Disaster Resource Center).</p>
+      </section>
+
+      <!-- Email Capture Section -->
+      <section class="mt-20 text-center">
+        <h2 class="text-xl font-bold mb-4">Stay in the Loop</h2>
+        <p class="text-[#93adc8] mb-6">Be the first to know when we launch—get notified the moment Episode 1 drops.</p>
+        <form class="flex flex-col sm:flex-row justify-center gap-3 max-w-lg mx-auto">
+          <input type="email" placeholder="you@example.com"
+            class="rounded-md px-4 py-2 bg-[#243647] text-white border border-[#334a5e] focus:outline-none focus:ring-2 focus:ring-blue-500"
+            required />
+          <button type="submit" class="px-6 py-2 bg-[#197fe5] text-white font-bold rounded-md">Notify Me</button>
+        </form>
+      </section>
+
+      <!-- Panda Mascot Section -->
+      <section class="mt-20 text-center">
+        <h2 class="text-xl font-bold mb-4">Meet Our Mascot</h2>
+        <p class="text-[#93adc8] mb-4">An 8-bit panda who’s just as curious about IT as you are.</p>
+        <div class="flex justify-center">
+          <img src="https://i.imgur.com/YwtBox2.jpeg" alt="8-bit panda mascot" class="w-40 h-40" />
+        </div>
+      </section>
+    </main>
+
+    <footer class="mt-20 px-10 py-8 border-t border-[#243647] text-center text-[#93adc8]">
+      <div class="flex justify-center gap-6 mb-4">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <p>@2024 Panda Award Show. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+
+</html>
