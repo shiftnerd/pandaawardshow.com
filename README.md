@@ -12,6 +12,6 @@ Abhi leverages over a decade of IT experience to deliver top-notch managed servi
 
 ### Ben Climer  
 🤖 Lead Automation Specialist, Rewst  
-Ben designs and fine-tunes MSP workflows that save time, eliminate headaches, and drive real ROI. When he’s not automating the world, he’s volunteering with ITDRC to help communities recover from disasters. ⚙️❤️
+Ben designs and fine-tunes MSP workflows that save time, eliminate headaches, and drive real ROI.
 
 > Outside of work, both Abhi and Ben volunteer with the Information Technology Disaster Resource Center (ITDRC), bringing tech rescue to communities in need. 🌍🔧
