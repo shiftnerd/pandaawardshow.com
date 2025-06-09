@@ -4,14 +4,6 @@ Ever wished someone would spill all the insider secrets of the IT world? 🚀 Jo
 
 ---
 
-## 🔔 Stay in the Loop
-Be the first to know when Episode 1 lands!
-  
-📬 **you@example.com**  
-[Notify Me! 🚀](#)
-
----
-
 ## 👥 Meet Your Hosts
 
 ### Abhi Saini  
