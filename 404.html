@@ -128,10 +128,26 @@
             <img src="https://i.imgur.com/rphLZFS.png" alt="Lost Panda" class="panda" />
 
             <h1>404</h1>
-            <p>Oops! Our panda got lost in the bamboo.</p>
+            <p id="message">Oops! Our panda got lost in the bamboo.</p>
             <a href="/" class="home-btn">Take me home</a>
         </div>
     </div>
+    <script>
+        (function () {
+            const messages = [
+                "Panda spilled coffee on the keyboard",
+                "Panda forgot the semicolon",
+                "Panda says it's probably DNS.",
+                "Panda says it’s a feature, not a bug.",
+                "Panda clicked on a phishing link.",
+                "Panda says we should stop blaming him for our vibe code.",
+                "The vibes were not right on this one."
+            ];
+            const pick = messages[Math.floor(Math.random() * messages.length)];
+            document.getElementById('message').textContent = pick;
+        })();
+    </script>
+
 </body>
 
 </html>
