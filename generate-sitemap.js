@@ -10,9 +10,7 @@ function getBaseUrl() {
     return `https://${domain}`;
   }
   // Fallback to GitHub Pages URL
-  const username = 'yourusername';      // <-- replace this
-  const repo = 'your-repo-name';        // <-- replace this
-  return `https://${username}.github.io/${repo}`;
+  return `https://pandaawardshow.com`;
 }
 
 function getHtmlFiles(dir, files = []) {
