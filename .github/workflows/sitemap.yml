@@ -1,0 +1,31 @@
+name: Generate Sitemap
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20'
+
+    - name: Generate sitemap
+      run: |
+        npm init -y
+        npm install
+        node generate-sitemap.js
+
+    - name: Commit sitemap
+      run: |
+        git config user.name "github-actions"
+        git config user.email "github-actions@github.com"
+        git add sitemap.xml
+        git commit -m "Update sitemap.xml" || echo "No changes"
+        git push
