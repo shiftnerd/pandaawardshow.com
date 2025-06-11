@@ -2,5 +2,3 @@ User-agent: *
 Disallow:
 
 Sitemap: https://pandaawardshow.com/sitemap.xml 
-
-Is this a valid robots.txt?
